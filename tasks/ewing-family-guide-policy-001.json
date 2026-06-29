@@ -1,0 +1,38 @@
+{
+  "id": "ewing-family-guide-policy-001",
+  "title": "Editorial & safety policy + dual-review gate spec (refusals, no-advice, standing labels, source-tiering)",
+  "project": "ewing-family-guide",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["health", "oncology", "ewing-sarcoma", "patient-education", "plain-language"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. It is HIGH risk-tier patient-facing health content: nothing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (either can block). Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis. This cold-start task writes the editorial & safety policy that all later sourcing, drafting, and review must implement. No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured.",
+  "objective": "Write the authoritative editorial & safety policy (the project's guardrail spec) that all later source-vetting, content drafting, and review must implement and be tested against: the hard refusals (no advice/diagnosis/individual prognosis/unproven-therapy promotion/non-vetted sources/patient-level data), the curate-and-translate-never-generate rule, the standing 'not medical advice' and survival-statistics framing labels, the vetted-source tiering rule, and the blocking dual-review gate (oncologist + patient-advocate, version-scoped, either can block, applies to any channel).",
+  "acceptanceCriteria": [
+    "Enumerates the hard refusals in concrete, testable terms: no medical advice, no diagnosis, no individual prognosis or 'what would you do', no dosing, no choosing/refusing treatment, no promotion of unproven/commercial therapies, no non-vetted sources, and no patient-level or controlled-access data",
+    "Defines allowed content as general, population-level, source-cited education and states the curate-and-translate, never generate rule (AI may not be the source of a medical fact)",
+    "Specifies the standing, template-enforced labels on every page: 'Informational, not medical advice - consult your care team', the survival-statistics framing ('groups, not your child/you'), and an urgent-care pointer where relevant - and requires they be legible, not buried",
+    "Specifies the blocking dual-review gate: oncologist (accuracy/currency/non-advice framing/time-critical surfacing) AND patient-advocate (tone/dignity/clarity/usefulness) sign-off, either may block, version-scoped sign-off that expires on edits or stale sources, applying to any channel and to content handed to a family - not only repo publish",
+    "States the source-tiering rule (vetted allow-list only: NCI/PDQ, COG, ESMO, CCLG; additions only by editorial decision with oncologist concurrence) and the per-source license-verification requirement",
+    "Defines the stop-and-flag behavior for AI sessions or contributors that hit a refusal (advice creep, unsourced fact, non-vetted source, patient data) rather than working around it",
+    "Reviewed and signed off by a credentialed pediatric/sarcoma oncologist and a patient/caregiver advocate, recorded in the reviewers ledger (version-scoped, with consent and no implied endorsement)"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "governance/proposals/ewing-family-guide.md",
+    "CLAUDE.md",
+    "docs/good-deed-definition.md",
+    "packages/schema/src/schemas.ts",
+    "planning/ROADMAP.md",
+    "planning/projects/public-official-guide/PLAN.md"
+  ],
+  "output": "A reviewed editorial & safety policy document (the guardrail spec) defining the hard refusals, allowed content, curate-and-translate rule, standing labels, vetted-source tiering + license-verification requirement, stop-and-flag behavior, and the blocking dual-review gate - the contract that ewing-family-guide-sources-002 (allow-list/license protocol), ewing-family-guide-checks-004 (build checks), and every patient-facing writing task implement and are verified against.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

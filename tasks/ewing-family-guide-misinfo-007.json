@@ -1,0 +1,38 @@
+{
+  "id": "ewing-family-guide-misinfo-007",
+  "title": "Per-topic misinformation hot-spot map (unproven cures, outdated survival stats) from vetted sources",
+  "project": "ewing-family-guide",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "misinformation"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task maps, per topic and strictly from vetted sources, the common misinformation hot-spots (unproven cures, outdated survival statistics) so later drafting can pre-empt them — without itself giving advice or prognosis. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Produce a per-topic misinformation hot-spot map (e.g. unproven/commercial cures, outdated survival statistics), grounded only in vetted sources, to guide misinformation-correction in later content.",
+  "acceptanceCriteria": [
+    "Identifies, per topic, common misinformation hot-spots (unproven/commercial cures, outdated or misread survival statistics) families encounter",
+    "Each correction is grounded in a vetted source (NCI/PDQ, COG, ESMO, CCLG) with provenance; no model-generated medical facts",
+    "Frames corrections as general education with survival-stats framing ('groups, not your child/you'); gives no individual prognosis or advice"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "docs/topic-map.md",
+    "sources/corpus/"
+  ],
+  "output": "docs/misinformation-hotspot-map.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

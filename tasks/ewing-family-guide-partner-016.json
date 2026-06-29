@@ -1,0 +1,40 @@
+{
+  "id": "ewing-family-guide-partner-016",
+  "title": "Secure delivery partner/steward + publish dual-reviewed guide through a vetted family-facing channel",
+  "project": "ewing-family-guide",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "delivery",
+    "partnerships"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This is the last-mile deed: secure a real family-facing channel and publish ONLY dual-signed-off, cited, accessible pages. The build-vs-hold rule binds — never self-publish unreviewed-channel content to vulnerable families to hit a date. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Secure a delivery partner/steward and publish the dual-reviewed, cited, accessible guide through a vetted family-facing channel, applying the build-vs-hold rule and collecting no PII.",
+  "acceptanceCriteria": [
+    "A real family-facing channel (sarcoma foundation, COG/CCLG-affiliated program, or treating-center patient-education office) is secured; steward assigned; verifiedNeed flips to true",
+    "Only dual-signed-off, cited, accessible pages are published/distributed; standing labels and currency (validUntil) in force",
+    "Driven by the dated acquisition plan (>=3 partners in conversation by 2026-08-31; reviewers by 2026-10-31); if no partner by 2027-02-28, apply the build-vs-hold rule (pivot beneficiary or hold reviewed-unpublished) — never self-publish unreviewed-channel content to vulnerable families to hit a date",
+    "Outcomes (qualitative usefulness, reach) recorded with no PII collected"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "review/signoff-ledger.md",
+    "review/comprehension-pilot-report.md"
+  ],
+  "output": "docs/delivery-partner-and-publication.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

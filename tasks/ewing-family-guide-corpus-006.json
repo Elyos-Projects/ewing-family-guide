@@ -1,0 +1,40 @@
+{
+  "id": "ewing-family-guide-corpus-006",
+  "title": "Vetted source corpus assembly + per-source license verification + provenance records",
+  "project": "ewing-family-guide",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "open-data",
+    "provenance"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task assembles the vetted source corpus for the mapped topics, verifying and recording each source's reuse license and provenance so these become the Source records every assertion will cite. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Assemble the vetted source corpus for the topic map, verify and record each source's reuse license and complete provenance, and confirm no controlled-access or patient-level data is present.",
+  "acceptanceCriteria": [
+    "Every candidate source is on the allow-list and has its reuse license verified and recorded (with the restate-vs-permission decision noted per source)",
+    "Provenance records complete (body, citation, URL, retrieval date, license, lastVerified, validUntil) — these become the Source records every assertion will cite",
+    "No controlled-access or patient-level data present; verified and noted"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "docs/policy/source-allowlist-and-license-protocol.md",
+    "docs/spec/content-schema-and-provenance-model.md",
+    "docs/topic-map.md"
+  ],
+  "output": "sources/corpus/ (provenance records)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

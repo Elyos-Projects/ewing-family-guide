@@ -1,0 +1,41 @@
+{
+  "id": "ewing-family-guide-checks-004",
+  "title": "Build checks: citation-coverage + readability + \"not medical advice\" label lint + staleness",
+  "project": "ewing-family-guide",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "tooling",
+    "ci"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task scaffolds the lightweight TypeScript/ESM build checks (per Elyos conventions) that make the provenance and labeling rules enforceable in CI. It is infra/tooling, not patient-facing content. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Implement, as a PR, the four automated build checks over the content repo: citation-coverage, readability, 'not medical advice' label lint, and source staleness.",
+  "acceptanceCriteria": [
+    "Citation-coverage check fails the build if any assertion lacks >=1 vetted Source",
+    "Readability check fails a page that exceeds the grade bar (target <= grade 8)",
+    "Label lint fails a page missing the standing 'not medical advice' framing",
+    "Staleness check flags/withholds any page whose sources are past validUntil",
+    "Checks are TypeScript/ESM per Elyos conventions; pnpm build && pnpm test && pnpm lint pass; CI green"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "docs/spec/content-schema-and-provenance-model.md",
+    "CLAUDE.md"
+  ],
+  "output": "tools/checks/ (citation-coverage, readability, label-lint, staleness)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

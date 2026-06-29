@@ -1,0 +1,37 @@
+{
+  "id": "ewing-family-guide-topicmap-005",
+  "title": "Family-need-ranked topic map (diagnosis-shock + time-critical first), co-designed with reviewers",
+  "project": "ewing-family-guide",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "topic-map"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task produces the need-ranked topic map that orders the guide by family need, surfacing diagnosis-shock and time-critical topics first; it is co-designed with the reviewers (or drafted for their review until secured). Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Produce a family-need-ranked topic map ordering diagnosis-shock and time-critical topics first, distinguishing audience per topic, and flagging sensitive topics that require extra review care.",
+  "acceptanceCriteria": [
+    "Produces a need-ranked topic list ordering diagnosis-shock topics (what Ewing sarcoma is; understanding the diagnosis/tests/staging) and time-critical items (fertility preservation before treatment) first",
+    "Co-designed with the oncologist + advocate (or drafted for their review until secured); distinguishes audience (caregiver / AYA-patient / both) per topic",
+    "Defines sensitive topics (relapse, palliative/end-of-life, prognosis-adjacent) requiring extra review care"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "tasks/ewing-family-guide-policy-001.json"
+  ],
+  "output": "docs/topic-map.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

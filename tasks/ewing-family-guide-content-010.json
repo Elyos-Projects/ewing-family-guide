@@ -1,0 +1,38 @@
+{
+  "id": "ewing-family-guide-content-010",
+  "title": "\"Fertility preservation before treatment\" (time-critical) + \"Questions to ask your care team\"",
+  "project": "ewing-family-guide",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "fertility-preservation"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. Fertility preservation is content-prioritized as time-critical FOR FAMILIES ('ask before treatment starts'); the page surfaces it as general education sourced to vetted bodies, not advice. Drafts are marked 'draft' and not published until dual sign-off. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Draft, strictly from vetted sources, the time-critical 'Fertility preservation before treatment' page and a neutral 'Questions to ask your care team' page, passing citation-coverage/readability/label checks and marked draft pending dual sign-off.",
+  "acceptanceCriteria": [
+    "Surfaces fertility preservation as time-critical ('ask before treatment starts'), framed as general education sourced to vetted bodies, not advice",
+    "'Questions to ask' lists vetted, neutral questions; does not script medical decisions",
+    "Citation-coverage + readability + labels pass; draft, unpublished pending dual sign-off"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "docs/spec/content-schema-and-provenance-model.md",
+    "sources/corpus/"
+  ],
+  "output": "content/fertility-preservation.md, content/questions-to-ask.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

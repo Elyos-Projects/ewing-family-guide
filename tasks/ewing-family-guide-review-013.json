@@ -1,0 +1,39 @@
+{
+  "id": "ewing-family-guide-review-013",
+  "title": "Dual sign-off pass: oncologist accuracy/currency + advocate tone/usefulness on all ship-slated pages",
+  "project": "ewing-family-guide",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "review",
+    "governance"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This is the blocking dual-review gate itself: oncologist and advocate sign-off recorded per page and per version on all ship-slated pages. Either reviewer may block; no page publishes without both sign-offs for its current version. Reachable only once both reviewers are secured. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Run and record the blocking dual sign-off pass over all ship-slated pages: oncologist (accuracy/currency/non-advice framing/time-critical surfacing) and advocate (tone/dignity/clarity/usefulness), version-scoped, in the reviewers ledger.",
+  "acceptanceCriteria": [
+    "Oncologist sign-off recorded per page for clinical accuracy, currency, non-advice framing, and correct surfacing of time-critical items",
+    "Advocate sign-off recorded per page for tone, dignity, clarity, sensitivity, usefulness",
+    "Sign-off is version-scoped; either reviewer may block; unresolved disputes escalate per Governance; no page publishes without both sign-offs for its current version"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "tasks/ewing-family-guide-policy-001.json",
+    "content/"
+  ],
+  "output": "review/signoff-ledger.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ewing-family-guide-content-008",
+  "title": "\"What is Ewing sarcoma?\" + \"Understanding your diagnosis: tests & staging\" (plain-language, cited)",
+  "project": "ewing-family-guide",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task drafts the two highest-need diagnosis-shock pages strictly from vetted sources; the curate-and-translate, never-generate rule binds (AI may not be the source of a medical fact). Drafts are marked 'draft' and not published until dual sign-off. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Draft, strictly from vetted sources, the plain-language pages 'What is Ewing sarcoma?' and 'Understanding your diagnosis: tests & staging', passing citation-coverage/readability/label checks and marked draft pending dual sign-off.",
+  "acceptanceCriteria": [
+    "Every assertion restates a vetted source and carries provenance (passes citation-coverage)",
+    "Reading level <= grade 8; hard terms defined on first use; standing 'not medical advice' + survival-stats framing ('groups, not your child/you') present",
+    "Explains localized vs. metastatic and what staging means without giving individual prognosis or advice; routes to the care team",
+    "Drafted strictly from provided vetted sources (no model-generated facts); marked draft, not published, until dual sign-off"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "docs/spec/content-schema-and-provenance-model.md",
+    "sources/corpus/",
+    "docs/misinformation-hotspot-map.md"
+  ],
+  "output": "content/what-is-ewing-sarcoma.md, content/understanding-your-diagnosis.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

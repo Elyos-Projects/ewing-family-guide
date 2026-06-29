@@ -1,0 +1,41 @@
+{
+  "id": "ewing-family-guide-content-012",
+  "title": "Sensitive topics: clinical trials (informational), relapse, palliative/end-of-life, survivorship pointer",
+  "project": "ewing-family-guide",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "sensitive-topics",
+    "palliative-care"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. These are the hardest, most sensitive pages: clinical trials (informational only), relapse, palliative/end-of-life, and a survivorship pointer. They must be honest and humane, give no individual prognosis, and get explicit advocate tone review plus oncologist framing review. Drafts are marked 'draft' and not published until dual sign-off. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Draft, strictly from vetted sources, the sensitive-topic pages — clinical trials (informational), relapse, palliative/end-of-life, and a survivorship pointer — honest and humane, with no individual prognosis, pending dual sign-off.",
+  "acceptanceCriteria": [
+    "Clinical-trials page is informational only, links to ewing-trial-finder (HIGH sibling), does not recommend or rank trials",
+    "Relapse and palliative/end-of-life pages are honest and humane, give no individual prognosis, carry clear support-resource pointers, and get explicit advocate tone review + oncologist framing review",
+    "Survivorship/late-effects handled as a pointer to ewing-survivorship-late-effects",
+    "Drafted strictly from provided vetted sources (no model-generated facts); marked draft, not published, until dual sign-off"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "content/what-is-ewing-sarcoma.md",
+    "sources/corpus/",
+    "docs/misinformation-hotspot-map.md"
+  ],
+  "output": "content/sensitive/ (clinical-trials, relapse, palliative-end-of-life, survivorship-pointer)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

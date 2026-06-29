@@ -1,0 +1,40 @@
+{
+  "id": "ewing-family-guide-sources-002",
+  "title": "Vetted-source allow-list + per-source license-verification protocol",
+  "project": "ewing-family-guide",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "open-data",
+    "licensing"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task operationalizes the editorial & safety policy's source-tiering rule into a concrete vetted-source allow-list and a per-source license-verification protocol that every later sourcing/drafting task is bound by. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Establish the vetted-body allow-list (NCI/PDQ, COG, ESMO, CCLG) and define the per-source license-verification protocol and ledger fields that gate whether any source may back a shipped assertion.",
+  "acceptanceCriteria": [
+    "Establishes the vetted-body allow-list (NCI/PDQ, COG, ESMO, CCLG; additions only by editorial decision with oncologist concurrence)",
+    "Defines the per-source license-verification steps and ledger fields (body, citation, URL, retrieval date, verified license/reuse terms, lastVerified, validUntil)",
+    "Records the conservative defaults: NCI/PDQ government-work-but-non-endorsement/trademark; COG/ESMO/CCLG copyrighted -> restate-and-cite, no verbatim copying without recorded permission",
+    "States that a source with unverified or incompatible terms cannot back a shipped assertion"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "tasks/ewing-family-guide-policy-001.json",
+    "CLAUDE.md"
+  ],
+  "output": "docs/policy/source-allowlist-and-license-protocol.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

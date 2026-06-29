@@ -1,0 +1,38 @@
+{
+  "id": "ewing-family-guide-trials-link-021",
+  "title": "Deepen integration with ewing-trial-finder (informational)",
+  "project": "ewing-family-guide",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "clinical-trials"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. A backlog/future task deepening the informational link to the ewing-trial-finder HIGH sibling — link, don't duplicate, and never recommend or rank trials. The HIGH sibling gate applies. Drafts are marked 'draft' and not published until dual sign-off. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Deepen the informational integration with ewing-trial-finder by linking (not duplicating) trial information, without recommending or ranking trials, pending dual sign-off.",
+  "acceptanceCriteria": [
+    "Links to ewing-trial-finder informationally; does not duplicate its content and does not recommend, rank, or determine eligibility for any trial",
+    "Honors the HIGH sibling gate; every assertion cited with provenance; standing 'not medical advice' framing present",
+    "Drafted strictly from provided vetted sources (no model-generated facts); marked draft, not published, until dual sign-off"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "content/sensitive/",
+    "docs/spec/content-schema-and-provenance-model.md"
+  ],
+  "output": "content/clinical-trials-informational.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

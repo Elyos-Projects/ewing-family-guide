@@ -1,0 +1,40 @@
+{
+  "id": "ewing-family-guide-schema-003",
+  "title": "Content schema + provenance model (Page/Assertion/Source) + Markdown repo",
+  "project": "ewing-family-guide",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "provenance",
+    "schema"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. This task defines the content/provenance data model (Page/Assertion/Source) and the Markdown repo layout with structured front-matter so 'no source, no claim' and the dual sign-off gate are enforceable by tooling rather than goodwill. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Define the Page/Assertion/Source content schema and provenance model and lay out the Markdown content repo with structured front-matter (topic, audience, sources, reading-level, sign-off) so every assertion carries provenance and every page is gated on dual sign-off.",
+  "acceptanceCriteria": [
+    "Defines the Assertion model (plain-language text, >=1 vetted Source, reviewStatus draft|onco-reviewed|advocate-reviewed|dual-approved)",
+    "Defines the Source model (body, citation, url, retrievedOn, verified license, lastVerified, validUntil) matching the license-verification protocol",
+    "Defines the Page model (topic, audience caregiver|AYA-patient|both, measured readingLevel, assertions, template-enforced notMedicalAdvice, version-scoped oncologist+advocate sign-off)",
+    "Lays out the Markdown content repo with structured front-matter so provenance is diffable and a page cannot publish without every assertion sourced and both sign-offs for its current version"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "tasks/ewing-family-guide-policy-001.json",
+    "docs/policy/source-allowlist-and-license-protocol.md"
+  ],
+  "output": "docs/spec/content-schema-and-provenance-model.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

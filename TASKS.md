@@ -317,3 +317,39 @@ Complete, schema-valid Task JSON for the first M0 task (`ewing-family-guide-poli
   "outputLicense": "CC-BY-4.0"
 }
 ```
+
+---
+
+## Generated task index
+
+Every backlog row above is now materialized as a schema-valid `tasks/<id>.json`
+(validated against `packages/schema/src/schemas.ts`; all start `status: open`,
+`lane: donated`, `urgent: false`, `verifiedNeed: false`, `requestor: TO BE SECURED`).
+All 22 tasks pass the Elyos task validator (filenames == ids, no duplicates, no extra keys).
+
+**Fan-out:** none. Each `TASKS.md` row maps 1:1 to a single task JSON — there is no
+plan-enumerated dimension (no fixed language/dataset/document set) to expand. Pages that
+bundle two topics (008, 009, 010) are kept as one task per the row, with both outputs named.
+Region variants (020) are intentionally **not** pre-split per region until M5 secures
+per-region reviewers and sourcing.
+
+**Guardrails preserved verbatim in the JSON:** HIGH risk-tier on every patient-facing
+writing task; the binding cancer guardrails (open-access/aggregate/de-identified sources only;
+controlled-access and patient-level data out of scope; license-verify each source; provenance
+on every assertion; no advice/diagnosis/individual prognosis); the curate-and-translate,
+never-generate rule; standing "not medical advice" + survival-stats framing labels; and the
+blocking dual sign-off (oncologist + patient-advocate, version-scoped, either can block).
+No task authors refused content (no advice, eligibility, trial ranking, or prognosis): the
+clinical-trials work (012, 021) is informational-only and links to `ewing-trial-finder`.
+
+- **M0** — `ewing-family-guide-policy-001` (seed), `-sources-002`, `-schema-003`, `-checks-004`
+- **M1** — `ewing-family-guide-topicmap-005`, `-corpus-006`, `-misinfo-007`
+- **M2** — `ewing-family-guide-content-008`, `-content-009`, `-content-010`, `-glossary-011`
+- **M3** — `ewing-family-guide-content-012`, `-review-013`, `-a11y-014`, `-pilot-015`
+- **M4** — `ewing-family-guide-partner-016`
+- **M5** — `ewing-family-guide-ops-017`
+- **Backlog/future** — `ewing-family-guide-content-018`, `-content-019`, `-region-020`,
+  `-trials-link-021`, `-feedback-022`
+
+Build-tooling tasks (`-checks-004`, `-a11y-014`) carry `deliverable: pr` and
+`outputLicense: MIT`; all content/spec/dataset tasks carry `outputLicense: CC-BY-4.0`.

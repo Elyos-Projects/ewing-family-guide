@@ -1,0 +1,38 @@
+{
+  "id": "ewing-family-guide-region-020",
+  "title": "Region-tagged variants (US NCI/COG vs EU ESMO/CCLG)",
+  "project": "ewing-family-guide",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "ewing-sarcoma",
+    "patient-education",
+    "plain-language",
+    "localization"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Ewing-Family-Guide is a free, plain-language guide for families, caregivers, and AYA patients facing a Ewing sarcoma diagnosis. It ONLY restates and organizes vetted-authority information (NCI/PDQ, COG, ESMO, CCLG), with a citation on every assertion, at a health-literacy reading level. This is HIGH risk-tier, patient-facing health content: nothing patient-facing ships until both a credentialed pediatric/sarcoma oncologist AND a patient/caregiver advocate sign off (version-scoped, either can block). No delivery partner, oncologist reviewer, or patient-advocate reviewer is yet secured. A backlog/future task (only after M5) producing region-tagged content variants (US NCI/COG vs EU ESMO/CCLG), each with its own per-region reviewer and sourcing. Drafts are marked 'draft' and not published until per-region dual sign-off. Binding cancer guardrails apply: open-access/aggregate/de-identified educational sources only; controlled-access (dbGaP, EGA, individual-level biobanks) and any identifiable patient data are out of scope; verify each source license; provenance on every assertion; no medical advice, diagnosis, or individual prognosis.",
+  "objective": "Produce region-tagged content variants (US NCI/COG vs EU ESMO/CCLG), each region-sourced and region-reviewed, only after M5, pending per-region dual sign-off.",
+  "acceptanceCriteria": [
+    "Region-tagged variants sourced from the region-appropriate vetted bodies (US: NCI/COG; EU: ESMO/CCLG), each assertion cited with provenance",
+    "Each region variant carries its own per-region reviewer (oncologist + advocate) sign-off; undertaken only after M5",
+    "Drafted strictly from provided vetted sources (no model-generated facts); marked draft, not published, until per-region dual sign-off"
+  ],
+  "resources": [
+    "planning/projects/ewing-family-guide/PLAN.md",
+    "planning/projects/ewing-family-guide/TASKS.md",
+    "content/",
+    "docs/policy/source-allowlist-and-license-protocol.md"
+  ],
+  "output": "content/regions/ (us/, eu/)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
